@@ -1,0 +1,28 @@
+# Virtual Environment
+my_venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ignore training artifacts
+models/
+output/
+
+# Large ML files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.arrow
+*.ipynb
+.env
